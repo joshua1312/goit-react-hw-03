@@ -1,0 +1,14 @@
+.descriptionTitle {
+    display: flexbox;
+    margin-bottom: 20px;
+}
+
+.descriptionText {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.description {
+    margin-bottom: 20px;
+}
