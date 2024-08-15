@@ -25,3 +25,4 @@ const Contact = ({ contact: { id, name, number }, onDeleteContact }) => {
         </div>
     );
 };
+export default Contact;

@@ -2,7 +2,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useId } from "react";
 import { nanoid } from "nanoid";
-import css from ".//ContactForm.module.css";
+import css from "./ContactForm.module.css";
 
 const ContactForm = ({ onAddContact }) => {
     const nameFieldId = useId();
