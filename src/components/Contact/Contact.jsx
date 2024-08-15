@@ -4,7 +4,7 @@ import css from "./Contact.module.css"
 
 const Contact = ({ contact: { id, name, number }, onDeleteContact }) => {
     return (
-        <div className={css.contactCard}>
+        <div className={css.contact}>
             <div className={css.contactInfo}>
                 <p className={css.contactText}>
                     <FaUser />
@@ -16,7 +16,7 @@ const Contact = ({ contact: { id, name, number }, onDeleteContact }) => {
                 </p>
             </div>
             <button
-                className={css.contactDeleteBtn}
+                className={css.contactDeleteButton}
                 type="button"
                 onClick={() => onDeleteContact(id)}
             >
